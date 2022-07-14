@@ -270,6 +270,7 @@ background-color: var(--main-bg-color);
 }
 
 .benefits-title-hidden {
+    display: none;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -294,6 +295,10 @@ background-color: var(--main-bg-color);
     font-size: 14px;
     line-height: 1.71;
     }
+
+.works {
+    padding-bottom: 94px;
+}
 
 .works-list {
     display: flex;
@@ -367,6 +372,10 @@ background-color: var(--main-bg-color);
 .button:hover {
     background-color: var(--main-accent-color);
     color: var(--button-accent-text-color);
+}
+
+.section-title-hidden {
+    display: none;
 }
 
 .projects-nav-item > .button{
