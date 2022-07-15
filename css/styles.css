@@ -76,11 +76,11 @@ img {
 /* Common components */
 
 .site-body {
-    background-color: var(--main-bg-color);
     color: var(--main-text-color);
-
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+
+    background-color: var(--main-bg-color);
 }
 
 .container {
@@ -95,11 +95,11 @@ img {
 /* logo */
 
 .header {
-    background-color: var(--main-bg-color);
-    border-bottom: 1px solid #ECECEC;
-
     padding-top: 24px;
     padding-bottom: 24px;
+
+    background-color: var(--main-bg-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -108,6 +108,8 @@ img {
 }
 
 .logo-header {
+    margin-right: 94px;
+
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -115,9 +117,7 @@ img {
     letter-spacing: 0.03em;
     /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     text-decoration: none;
-
-    margin-right: 94px;
-    }
+}
 
 .logo-header .left {
     color: var(--main-accent-color);
@@ -131,6 +131,7 @@ img {
 .mailto {
     display: flex;
     align-items: center;
+    
     color: var(--p-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -184,7 +185,7 @@ img {
 /* main page */
 
 .main {
-background-color: var(--main-bg-color);
+    background-color: var(--main-bg-color);
 }
 
 /* main - Hero */
@@ -203,24 +204,25 @@ background-color: var(--main-bg-color);
 .hero .title {
     margin-bottom: 32px;
 
+    display: block;
+
     color: var(--hero-text-color) ;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
-    display: block;
+    letter-spacing: 0.06em;
 }
 
 .hero .button {
+
+    display: block;
 
     min-width: 200px;
     padding: 10px 10px;
     margin-right: auto;
     margin-left: auto;
-
-    display: block;
     
     font-weight: 700;
     font-size: 16px;
@@ -249,30 +251,29 @@ background-color: var(--main-bg-color);
 }
 
 .section-title {
+    margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-
-    margin-bottom: 50px;
-        
 }
+
 .section-text {
     color: var(--p-text-color);
 }
 
 .benefits {
     display: flex;
+    flex-wrap: wrap;
     margin-left: -30px;
     margin-bottom: -30px;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 
 .benefits-title-hidden {
     display: none;
-    text-align: center;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .benefits-list-item {
@@ -306,8 +307,8 @@ background-color: var(--main-bg-color);
 }
 
 .team { 
-    background-color: var(--team-section-bg-color);
     padding-bottom: 94px;
+    background-color: var(--team-section-bg-color); 
 }    
 
 .team-list {
@@ -326,12 +327,12 @@ background-color: var(--main-bg-color);
 }
 
 .team-list .title {
+    margin-bottom: 10px;
+
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
-    text-align: center;
-
-    margin-bottom: 10px;
 }
 
 .team-list-card {
@@ -341,13 +342,14 @@ background-color: var(--main-bg-color);
 }
 
 .team-list-content-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
     background: var(--main-bg-color);
     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
     border: 1px solid var(--main-bg-color);
     border-top: none;
     border-radius: 0px 0px 4px 4px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 /* Portfolio.css */
@@ -357,8 +359,8 @@ background-color: var(--main-bg-color);
 }
 
 .button {
-    background-color: var(--button-bg-color);
     color: var(--button-text);
+    background-color: var(--button-bg-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -385,8 +387,9 @@ background-color: var(--main-bg-color);
 
 .projects-nav {
     display: flex;
-    margin-bottom: 50px;
     justify-content: center;
+    
+    margin-bottom: 50px;
 }
 
 .projects-list {
@@ -443,15 +446,15 @@ background-color: var(--main-bg-color);
 }
 
 .logo-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-
-    display: inline-block;
-    margin-bottom: 20px;
-    }
+}
 
 .logo-footer .left {
     color: var(--main-accent-color);
@@ -466,15 +469,15 @@ background-color: var(--main-bg-color);
     /* text-decoration: none; */
 }
 .footer .address {
+    display: inline-block;
+    margin-bottom: 9px;
+
     color: var(--button-accent-text-color);
     /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
     font-style: normal;
-
-    display: inline-block;
-    margin-bottom: 9px;
 }
 
 .mailto-footer-list {
