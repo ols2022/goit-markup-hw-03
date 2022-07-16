@@ -322,7 +322,7 @@ img {
     /* color: var(--p-text-color); */
     /* font-weight: 400; */
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
 }
 
@@ -332,7 +332,7 @@ img {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
 }
 
 .team-list-card {
@@ -437,12 +437,10 @@ img {
 /* footer */
 
 .footer {
-    background-color: var(--footer-bg-color);
-}
-
-.footer-container {
     padding-top: 60px;
     padding-bottom: 60px;
+
+    background-color: var(--footer-bg-color);
 }
 
 .logo-footer {
